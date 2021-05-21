@@ -76,11 +76,7 @@ a {
     padding-left: 0 !important;
 }
 
-@media screen and (min-width: 376px) {
-    .nav-mobile {
-        display: none;
-    }
-}
+@media screen and (min-width: 376px) {}
 
 @media screen and (max-width: 375px) {
     .navbar {
