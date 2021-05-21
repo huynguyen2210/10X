@@ -72,7 +72,11 @@ header {}
         height: 752px;
         left: 0;
     }
+    .navbar-collapse ul {
+        padding-top: 30px;
+    }
     .navbar-collapse li {
         padding-left: 16px !important;
+        padding-bottom: 24px;
     }
 }
