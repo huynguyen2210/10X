@@ -5,7 +5,7 @@ a {
 
 /* HEADER */
 
-.header {
+.navbar {
     max-width: 1440px;
     height: 80px;
     flex-grow: 0;
@@ -15,42 +15,59 @@ a {
     margin: 0;
 }
 
-.main-nav {
-    float: right;
-    padding: 0;
+.navbar .logo img {
+    max-width: 60px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-#main-menu {
-    vertical-align: middle;
-}
-
-#main-menu ul {
-    float: right;
-    list-style: none;
-    margin: 0;
-}
-
-#main-menu ul li {
+.navbar-nav li {
     float: left;
     padding-left: 36px;
     text-align: left;
 }
 
-#main-menu ul li a {
+.navbar-nav li a {
     color: #fff;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding: 0 5px !important;
 }
 
-.nav-mobile .collapsed {
-    float: right;
-}
 
-.nav-mobile .collapsed a {
+/* .navbar .navbar-toggler {
     content: "";
     background-image: url(../images/icon/menu.png);
+    width: 24px;
+    height: 24px;
+}
+
+.navbar .navbar-toggler:checked {
+    content: "";
+    background-image: url(../images/icon/close.png);
+    width: 24px;
+    height: 24px;
+} */
+
+.navbar-toggler img {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-toggler .close-icon {
+    display: inline;
+}
+
+.navbar-toggler.collapsed .close-icon,
+.navbar-toggler:not(.collapsed) .toggler-icon {
+    display: none;
+}
+
+.navbar-collapse .navbar-nav li a {
+    padding-left: 0;
 }
 
 @media screen and (min-width: 376px) {
@@ -60,10 +77,14 @@ a {
 }
 
 @media screen and (max-width: 375px) {
+    .header {
+        height: 60px;
+    }
     .main-nav {
         display: none;
     }
     .nav-mobile {
+        display: block;
         float: right;
         padding: 0;
     }
