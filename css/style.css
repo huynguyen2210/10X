@@ -37,20 +37,26 @@ a {
     padding: 0 5px !important;
 }
 
-
-/* .navbar .navbar-toggler {
-    content: "";
-    background-image: url(../images/icon/menu.png);
-    width: 24px;
-    height: 24px;
+.navbar-nav li:last-child {
+    padding-right: 0;
 }
 
-.navbar .navbar-toggler:checked {
-    content: "";
-    background-image: url(../images/icon/close.png);
-    width: 24px;
-    height: 24px;
-} */
+.navbar.collapsing,
+.navbar.show {
+    background-color: white !important;
+}
+
+.navbar-collapse .navbar-nav {
+    position: absolute !important;
+    background-color: #091b2b !important;
+    width: 375px !important;
+    height: 752px;
+    left: 0;
+}
+
+.navbar-collapse li {
+    padding-left: 16px !important;
+}
 
 .navbar-toggler img {
     width: 24px;
@@ -67,7 +73,7 @@ a {
 }
 
 .navbar-collapse .navbar-nav li a {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 
 @media screen and (min-width: 376px) {
@@ -77,35 +83,9 @@ a {
 }
 
 @media screen and (max-width: 375px) {
-    .header {
+    .navbar {
         height: 60px;
-    }
-    .main-nav {
-        display: none;
-    }
-    .nav-mobile {
-        display: block;
-        float: right;
-        padding: 0;
-    }
-    #menu {
-        vertical-align: middle;
-    }
-    #menu ul {
-        float: right;
-        list-style: none;
-        margin: 0;
-    }
-    #menu ul li {
-        float: left;
-        padding-left: 36px;
-        text-align: left;
-    }
-    .nav-mobile #menu ul li a {
-        color: #fff;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-        text-decoration: none;
+        padding: 12px 16px;
+        background-color: #0d1c2a;
     }
 }
