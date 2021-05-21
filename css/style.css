@@ -37,15 +37,6 @@ a {
     padding: 0 5px !important;
 }
 
-.navbar-nav li:last-child {
-    padding-right: 0;
-}
-
-.navbar.collapsing,
-.navbar.show {
-    background-color: white !important;
-}
-
 .navbar-collapse .navbar-nav {
     position: absolute !important;
     background-color: #091b2b !important;
