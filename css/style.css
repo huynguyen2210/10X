@@ -154,6 +154,130 @@
         height: auto;
     }
     
+    .product-cont {
+        max-width: 100%;
+        background-color: #f7fafc;
+    }
+    
+    .product-cont .cont {
+        max-width: 77.8%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 120px 0 100px
+    }
+    
+    .product-title {
+        max-width: 65.63%;
+        font-family: SFUIDisplay;
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 1.23;
+        letter-spacing: 1.56px;
+        margin: 0 auto 80px;
+    }
+    
+    .product-content .card {
+        max-width: 31.25%;
+        border: unset;
+    }
+    
+    .product-content .card img {
+        max-width: 98px !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+    
+    .product-content .card .card-body .card-title {
+        max-width: 79.49%;
+        height: 37px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.33;
+        letter-spacing: 0.96px;
+        margin: 0 auto 36px;
+    }
+    
+    .product-content .card .card-body .card-text {
+        max-width: 79.49%;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.48px;
+        margin: 0 auto;
+    }
+    
+    .advisor-cont {
+        max-width: 100%;
+    }
+    
+    .cont {
+        max-width: 77.8%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 120px 0 127px
+    }
+    
+    .advisor-title {
+        max-width: 65.63%;
+        font-family: SFUIDisplay;
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 1.23;
+        letter-spacing: 1.56px;
+        margin: 0 auto 80px;
+    }
+    
+    .advisor-content .card {
+        max-width: 16.96%;
+        border: unset;
+        text-align: left !important;
+    }
+    
+    .advisor-content .card img {
+        max-width: 75px !important;
+        height: auto !important;
+    }
+    
+    .advisor-content .card .card-body {
+        padding: 0;
+    }
+    
+    .card .card-body .card-title {
+        max-width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.4;
+        letter-spacing: 0.6px;
+        margin: 16px 0 0;
+    }
+    
+    .card .card-body .card-subtitle {
+        max-width: 100%;
+        font-size: 16px;
+        color: #989898;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        margin: 0 0 20px;
+    }
+    
+    .card .card-body .card-text {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.48px;
+        margin: 0 auto;
+    }
+    
+    .card-body ul {
+        width: unset;
+        max-width: 100%;
+        font-size: 14px;
+        color: #545454;
+        line-height: 1.29;
+        letter-spacing: 0.28px;
+        text-align: left;
+        padding-inline-start: 10px !important;
+    }
+    
     @media screen and (min-width: 1921px) {
         header {
             max-width: 2560px;
@@ -284,6 +408,172 @@
             line-height: 24px;
             letter-spacing: 0.32px;
             text-align: left;
+        }
+        .product-cont .cont {
+            max-width: 89.33%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 120px 0 100px
+        }
+        .product-title {
+            max-width: 100%;
+            font-size: 32px;
+            letter-spacing: 0;
+            margin: 0 auto 40px;
+        }
+        .product-content {
+            display: block !important;
+        }
+        .product-content .card {
+            max-width: 89.33%;
+            margin: 0 auto 40px;
+        }
+        .product-content .card img {
+            max-width: 98px !important;
+            height: auto !important;
+            margin: 0 auto;
+        }
+        .card .card-body .card-title {
+            max-width: 79.49%;
+            height: 37px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.33;
+            letter-spacing: 0.96px;
+            margin: 0 auto 36px;
+        }
+        .card .card-body .card-text {
+            max-width: 79.49%;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.48px;
+            margin: 0 auto;
+        }
+        .advisor-cont {
+            max-width: 100%;
+        }
+        .cont {
+            max-width: 77.8%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 120px 0 127px
+        }
+        .advisor-title {
+            max-width: 65.63%;
+            font-family: SFUIDisplay;
+            font-size: 52px;
+            font-weight: 500;
+            line-height: 1.23;
+            letter-spacing: 1.56px;
+            margin: 0 auto 80px;
+        }
+        .advisor-content .card {
+            max-width: 16.96%;
+            border: unset;
+            text-align: left !important;
+        }
+        .advisor-content .card img {
+            max-width: 75px !important;
+            height: auto !important;
+        }
+        .advisor-content .card .card-body {
+            padding: 0;
+        }
+        .card .card-body .card-title {
+            max-width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.4;
+            letter-spacing: 0.6px;
+            margin: 16px 0 0;
+        }
+        .card .card-body .card-subtitle {
+            max-width: 100%;
+            font-size: 16px;
+            color: #989898;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+            margin: 0 0 20px;
+        }
+        .card .card-body .card-text {
+            max-width: 100%;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.48px;
+            margin: 0 auto;
+        }
+        .card-body ul {
+            width: unset;
+            max-width: 100%;
+            font-size: 14px;
+            color: #545454;
+            line-height: 1.29;
+            letter-spacing: 0.28px;
+            text-align: left;
+            padding-inline-start: 10px !important;
+        }
+        .advisor-cont {
+            max-width: 100%;
+        }
+        .cont {
+            max-width: 77.8%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 120px 0 127px
+        }
+        .advisor-title {
+            max-width: 65.63%;
+            font-family: SFUIDisplay;
+            font-size: 52px;
+            font-weight: 500;
+            line-height: 1.23;
+            letter-spacing: 1.56px;
+            margin: 0 auto 80px;
+        }
+        .advisor-content .card {
+            max-width: 16.96%;
+            border: unset;
+            text-align: left !important;
+        }
+        .advisor-content .card img {
+            max-width: 75px !important;
+            height: auto !important;
+        }
+        .advisor-content .card .card-body {
+            padding: 0;
+        }
+        .card .card-body .card-title {
+            max-width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.4;
+            letter-spacing: 0.6px;
+            margin: 16px 0 0;
+        }
+        .card .card-body .card-subtitle {
+            max-width: 100%;
+            font-size: 16px;
+            color: #989898;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+            margin: 0 0 20px;
+        }
+        .card .card-body .card-text {
+            max-width: 100%;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.48px;
+            margin: 0 auto;
+        }
+        .card-body ul {
+            width: unset;
+            max-width: 100%;
+            font-size: 14px;
+            color: #545454;
+            line-height: 1.29;
+            letter-spacing: 0.28px;
+            text-align: left;
+            padding-inline-start: 10px !important;
         }
     }
     
