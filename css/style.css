@@ -1,163 +1,256 @@
-a {
-    text-decoration: none;
-}
-
-
-/* HEADER */
-
-header {
-    max-width: 1440px;
-    height: 820px;
-}
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 820px;
-    object-fit: cover;
-   }
-.navbar {
-    max-width: 1440px;
-    height: 80px;
-    flex-grow: 0;
-    padding: 18px 11.11%;
-    background-color: #000000;
-    opacity: 0.75;
-    margin: 0;
-}
-
-.navbar .logo img {
-    max-width: 60px !important;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.navbar-nav li {
-    float: left;
-    padding-left: 36px;
-    text-align: left;
-}
-
-.navbar-nav li a {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-decoration: none;
-    padding: 0 5px !important;
-}
-
-.navbar-toggler img {
-    width: 24px;
-    height: 24px;
-}
-
-.navbar-toggler .close-icon {
-    display: inline;
-}
-
-.navbar-toggler.collapsed .close-icon,
-.navbar-toggler:not(.collapsed) .toggler-icon {
-    display: none;
-}
-
-.navbar-collapse .nav-collapse li a {
-    padding-left: 0 !important;
-}
-
-/* BODY */
-.intro-cont {
-    max-width: 1440px;
-    height: 800px;
-    background-color: #fff;
-    margin: 0 !important;
-    position: relative;
-}
-.intro-info {
-    max-width: 1120px;
-    margin: 20% auto auto;
-}
-
-.intro-info .intro-title {
-    float: left;
-    width: 482px;
-    font-size: 44px;
-    line-height: 52px;
-    letter-spacing: 1.32px;
-    text-align: left;
-}
-
-.intro-content {
-    float: right;
-    max-width: 638px;
-}
-
-.intro-content #content1 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 0.96px;
-    text-align: left;
-}
-
-.intro-content #content2 {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    text-align: left;
-}
-.intro-cont img {
-    max-width: 100%;
-    height: auto;
-    left: 0;
-    bottom: 0;
-}
-
-@media screen and (min-width: 376px) {}
-
-@media screen and (max-width: 540px) {
-    .navbar {
-        height: 60px;
-        padding: 12px 16px;
-        background-color: #0d1c2a;
-        opacity: unset;
+    a {
+        text-decoration: none;
     }
-    .navbar-collapse .navbar-nav {
-        position: absolute;
-        background-color: #091b2b;
-        width: 100%;
-        height: 752px;
-        left: 0;
+    
+    @font-face {
+        font-family: 'SFUIDisplay';
+        src: url('../fonts/SF-UI-Display-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
     }
-    .navbar-collapse ul {
-        padding-top: 30px;
+    
+    * {
+        font-family: "SFUIDisplay";
     }
-    .navbar-collapse li {
-        padding-left: 16px !important;
-        padding-bottom: 24px;
+    /* HEADER */
+    
+    header {
+        max-width: 1440px;
+        height: 820px;
     }
-}
-
-@media screen and (max-width: 425px) {
+    
     video {
-        height: 540px;
-       }
-    .navbar-collapse ul {
-        padding-top: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 820px;
+        object-fit: cover;
     }
-    .navbar-collapse li {
-        padding-left: 16px !important;
-        padding-bottom: 24px;
+    
+    .navbar {
+        max-width: 1440px;
+        height: 80px;
+        flex-grow: 0;
+        padding: 18px 11.11%;
+        background-color: #000000;
+        opacity: 0.75;
+        margin: 0;
     }
-}
-
-@media screen and (max-width: 375px) {
-    .navbar-collapse ul {
-        padding-top: 30px;
+    
+    .navbar .logo img {
+        max-width: 60px !important;
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
-    .navbar-collapse li {
-        padding-left: 16px !important;
-        padding-bottom: 24px;
+    
+    .navbar-nav li {
+        float: left;
+        padding-left: 36px;
+        text-align: left;
     }
-}
+    
+    .navbar-nav li a {
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+        padding: 0 5px !important;
+    }
+    
+    .navbar-toggler img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .navbar-toggler .close-icon {
+        display: inline;
+    }
+    
+    .navbar-toggler.collapsed .close-icon,
+    .navbar-toggler:not(.collapsed) .toggler-icon {
+        display: none;
+    }
+    
+    .navbar-collapse .nav-collapse li a {
+        padding-left: 0 !important;
+    }
+    /* BODY */
+    
+    .intro-cont {
+        max-width: 1440px;
+        /* height: 800px; */
+        margin: 0 !important;
+        position: relative;
+        padding-top: 11.11%;
+    }
+    
+    .intro-info {
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+    
+    .intro-info .intro-title {
+        float: left;
+        width: 482px;
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 52px;
+        letter-spacing: 1.32px;
+        text-align: left;
+    }
+    
+    .intro-content {
+        float: right;
+        max-width: 638px;
+    }
+    
+    .intro-content #content1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0.96px;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+    
+    .intro-content #content2 {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        text-align: left;
+    }
+    
+    .intro-cont img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    @media screen and (min-width: 1921px) {
+        header {
+            max-width: 2560px;
+        }
+        .navbar {
+            max-width: 100%;
+        }
+        .intro-cont {
+            max-width: 100%;
+        }
+        .intro-info {
+            max-width: 77.7%;
+            margin-top: 160px;
+        }
+        .intro-info .intro-title {
+            width: 33%;
+            font-size: 70px;
+            line-height: 52px;
+            letter-spacing: 1.32px;
+        }
+        .intro-content {
+            max-width: 44%;
+        }
+        .intro-content #content1 {
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: 0.96px;
+        }
+        .intro-content #content2 {
+            font-size: 28px;
+            line-height: 30px;
+            letter-spacing: 0.32px;
+        }
+    }
+    
+    @media screen and (min-width: 376px) {}
+    
+    @media screen and (max-width: 540px) {
+        .navbar {
+            height: 60px;
+            padding: 12px 16px;
+            background-color: #0d1c2a;
+            opacity: unset;
+        }
+        .navbar-collapse .navbar-nav {
+            position: absolute;
+            background-color: #091b2b;
+            width: 100%;
+            height: 752px;
+            opacity: unset;
+            left: 0;
+        }
+        .navbar-collapse ul {
+            padding-top: 30px;
+        }
+        .navbar-collapse li {
+            padding-left: 16px !important;
+            padding-bottom: 24px;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        header {
+            height: 540px;
+        }
+        video {
+            height: 540px;
+        }
+        .navbar-collapse ul {
+            padding-top: 30px;
+        }
+        .navbar-collapse li {
+            padding-left: 16px !important;
+            padding-bottom: 24px;
+        }
+        .intro-cont {
+            height: unset;
+            max-width: 100%;
+            margin: auto;
+            padding-top: 0;
+        }
+        .intro-info {
+            display: block !important;
+            max-width: 89.33%;
+            margin: 160px auto auto;
+        }
+        .intro-info .intro-title {
+            float: none;
+            width: unset;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 1.25;
+            letter-spacing: normal;
+        }
+        .intro-content {
+            float: none;
+        }
+        .intro-cont img {
+            width: 206.6px;
+            height: 88px;
+        }
+        .intro-content #content1 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.4;
+            letter-spacing: 0.6px;
+            text-align: left;
+            margin: 16px 0;
+        }
+        .intro-content #content2 {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+            text-align: left;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        .navbar-collapse ul {
+            padding-top: 30px;
+        }
+        .navbar-collapse li {
+            padding-left: 16px !important;
+            padding-bottom: 24px;
+        }
+    }
