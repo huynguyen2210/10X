@@ -9,6 +9,13 @@
         font-display: swap;
     }
     
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-display: swap;
+    }
+    
     * {
         font-family: "SFUIDisplay";
     }
@@ -123,7 +130,7 @@
         width: 482px;
         font-size: 44px;
         font-weight: 500;
-        line-height: 52px;
+        line-height: 1.18px;
         letter-spacing: 1.32px;
         text-align: left;
     }
@@ -277,6 +284,30 @@
         letter-spacing: 0.28px;
         text-align: left;
         padding-inline-start: 10px !important;
+    }
+    
+    .brand-value {
+        background-image: url(../images/value_banner.png);
+        max-width: 100%;
+        color: #fff;
+    }
+    
+    .brand-value .intro-content p {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.33;
+        letter-spacing: 0.96px;
+    }
+    
+    .brand-value .intro-content #to-co-worker {
+        font-family: "Roboto";
+    }
+    
+    .brand-value .intro-content ul li {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.48px;
     }
     
     @media screen and (min-width: 1921px) {
