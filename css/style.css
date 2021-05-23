@@ -15,7 +15,7 @@
     /* HEADER */
     
     header {
-        max-width: 1440px;
+        max-width: 100%;
         height: 820px;
         position: relative;
     }
@@ -31,7 +31,7 @@
     }
     
     .navbar {
-        max-width: 1440px;
+        max-width: 100%;
         height: 80px;
         flex-grow: 0;
         padding: 18px 11.11%;
@@ -106,7 +106,7 @@
     /* BODY */
     
     .intro-cont {
-        max-width: 1440px;
+        max-width: 100%;
         /* height: 800px; */
         margin: 0 !important;
         position: relative;
@@ -179,6 +179,7 @@
     .product-content .card {
         max-width: 31.25%;
         border: unset;
+        padding-top: 48px;
     }
     
     .product-content .card img {
