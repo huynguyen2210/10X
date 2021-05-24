@@ -127,17 +127,16 @@
     
     .intro-info .intro-title {
         float: left;
-        width: 482px;
+        max-width: 44%;
         font-size: 44px;
         font-weight: 500;
-        line-height: 1.18px;
         letter-spacing: 1.32px;
         text-align: left;
     }
     
     .intro-content {
         float: right;
-        max-width: 638px;
+        max-width: 56.96%;
     }
     
     .intro-content #content1 {
@@ -215,7 +214,6 @@
     
     .advisor-cont {
         max-width: 100%;
-        height: auto;
     }
     
     .advisor-cont .cont {
@@ -287,6 +285,50 @@
         padding-inline-start: 10px !important;
     }
     
+    .contact-cont {
+        max-width: 100%;
+        background-color: #f7fafc;
+    }
+    
+    .contact-section {
+        max-width: 77.78%;
+        margin: 0 auto;
+        padding: 120px 0 300px;
+    }
+    
+    .contact-title {
+        max-width: 43%;
+    }
+    
+    .contact-title p {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 1.18;
+    }
+    
+    .contact-title a {
+        background-image: url(../images/icon/mail.png);
+        background-repeat: no-repeat;
+        font-size: 20px;
+        color: #0981eb;
+        padding-left: 30px;
+    }
+    
+    form {
+        max-width: 57%;
+        font-size: 14px;
+        line-height: 1.43;
+    }
+    
+    form .form-row .firstname-input {
+        margin-right: 36px;
+    }
+    
+    input[type=textarea] {
+        max-width: 100%;
+        height: 100px;
+    }
+    
     .brand-value {
         background-image: url(../images/value_banner.png);
         max-width: 100%;
@@ -309,6 +351,29 @@
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.48px;
+    }
+    /* FOOTER */
+    
+    footer {
+        background-color: #000000;
+        max-width: 100%;
+        height: 80px;
+        padding: 18px 11.11%;
+    }
+    
+    .footer-content img {
+        width: 60px;
+        height: auto;
+        float: left;
+    }
+    
+    .footer-content .copyright {
+        float: left;
+        height: 18px;
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 0.28px;
+        margin: 13px 0 0 33.3px;
     }
     
     @media screen and (min-width: 1921px) {
@@ -424,11 +489,11 @@
         .intro-info {
             display: block !important;
             max-width: 89.33%;
-            margin: 160px auto auto;
+            margin: 120px auto auto;
         }
         .intro-info .intro-title {
             float: none;
-            width: unset;
+            max-width: unset;
             font-size: 32px;
             font-weight: 500;
             line-height: 1.25;
@@ -436,6 +501,7 @@
         }
         .intro-content {
             float: none;
+            max-width: unset;
         }
         .intro-cont img {
             width: 206.6px;
@@ -502,7 +568,7 @@
             max-width: 89.33%;
             text-align: center;
             margin: 0 auto;
-            padding: 120px 0 127px
+            padding: 120px 0 120px
         }
         .advisor-title {
             max-width: 100%;
@@ -511,26 +577,75 @@
             letter-spacing: normal;
             margin: 0 auto 56px;
         }
-        .advisor-title .card .card-body .card-title {
-            text-align: left;
-            margin: 16px 0 0 !important;
+        .advisor-content {
+            display: block !important;
         }
         .advisor-content .card {
             max-width: 100%;
             height: unset;
             margin: 0 auto 40px;
+            float: none;
         }
         .advisor-content .card .card-body {
             max-width: 100%;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.48px;
-            margin: 0 auto;
+        }
+        .advisor-title .card .card-body .card-title {
+            text-align: left;
+            margin: 16px 0 0 !important;
         }
         .advisor-content .card .card-body ul {
             max-width: 100%;
             padding-inline-start: 15px !important;
             margin: 0;
+        }
+        .contact-section {
+            max-width: 89.33%;
+            padding: 120px 0 120px;
+            display: block !important;
+        }
+        .contact-title {
+            max-width: 100%;
+        }
+        .contact-title p {
+            font-size: 32px;
+            line-height: 1.25;
+        }
+        .contact-title a {
+            background-image: url(../images/icon/mail.png);
+            background-repeat: no-repeat;
+            font-size: 20px;
+            color: #0981eb;
+            padding-left: 30px;
+        }
+        form {
+            max-width: 100%;
+            margin-top: 36px;
+        }
+        form .form-row .firstname-input {
+            margin-right: 15px;
+        }
+        form .form-row .form-group {
+            max-width: 46%;
+        }
+        .brand-value .intro-info {
+            margin: 0 auto;
+            padding: 120px 0;
+        }
+        .brand-value .intro-info .intro-title {
+            margin-bottom: 80px;
+        }
+        .brand-value .intro-info ul {
+            padding-inline-start: 20px !important;
+            margin: 25px 0;
+        }
+        .brand-value .intro-info ul li {
+            margin: 15px 0;
+        }
+        footer {
+            padding: 18px 16px;
         }
     }
     
