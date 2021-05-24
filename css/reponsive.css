@@ -43,6 +43,9 @@
 }
 
 @media screen and (max-width: 991px) {
+    .intro-content {
+        max-width: 65%;
+    }
     .product-title {
         max-width: 100%;
         font-size: 32px;
@@ -55,6 +58,9 @@
     .product-content .card {
         max-width: 77%;
         margin: 0 auto 40px;
+    }
+    .product-content .card:last-child {
+        margin-bottom: 0;
     }
     .product-content .card .card-body .card-title {
         max-width: 79.49%;
@@ -244,15 +250,14 @@
         margin: 0 auto 40px;
         float: none;
     }
+    .advisor-content .card:last-child {
+        margin-bottom: 0;
+    }
     .advisor-content .card .card-body {
         max-width: 100%;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.48px;
-    }
-    .advisor-title .card .card-body .card-title {
-        text-align: left;
-        margin: 16px 0 0 !important;
     }
     .advisor-content .card .card-body ul {
         max-width: 100%;
