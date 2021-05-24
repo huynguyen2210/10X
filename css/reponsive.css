@@ -142,12 +142,12 @@
         height: unset;
         max-width: 100%;
         margin: auto;
-        padding-top: 0;
+        padding-top: 120px;
     }
     .intro-info {
         display: block !important;
         max-width: 89.33%;
-        margin: 120px auto auto;
+        margin: 0 auto;
     }
     .intro-info .intro-title {
         float: none;
@@ -288,10 +288,6 @@
     form .form-row .form-group {
         max-width: 46%;
     }
-    .brand-value .intro-info {
-        margin: 0 auto;
-        padding-top: 120px;
-    }
     .brand-value .intro-info .intro-title {
         margin-bottom: 80px;
     }
@@ -314,5 +310,11 @@
     .navbar-collapse li {
         padding-left: 16px !important;
         padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .copyright {
+        margin-left: 20px !important;
     }
 }
