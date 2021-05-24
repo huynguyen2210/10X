@@ -121,7 +121,7 @@
     }
     
     .intro-info {
-        max-width: 1120px;
+        max-width: 77.78%;
         margin: 0 auto;
     }
     
@@ -333,6 +333,7 @@
         background-image: url(../images/value_banner.png);
         max-width: 100%;
         color: #fff;
+        padding-bottom: 15.8%;
     }
     
     .brand-value .intro-content p {
@@ -376,40 +377,7 @@
         margin: 13px 0 0 33.3px;
     }
     
-    @media screen and (min-width: 1921px) {
-        header {
-            max-width: 2560px;
-        }
-        .navbar {
-            max-width: 100%;
-        }
-        .intro-cont {
-            max-width: 100%;
-        }
-        .intro-info {
-            max-width: 77.7%;
-            margin-top: 160px;
-        }
-        .intro-info .intro-title {
-            width: 33%;
-            font-size: 70px;
-            line-height: 52px;
-            letter-spacing: 1.32px;
-        }
-        .intro-content {
-            max-width: 44%;
-        }
-        .intro-content #content1 {
-            font-size: 40px;
-            line-height: 40px;
-            letter-spacing: 0.96px;
-        }
-        .intro-content #content2 {
-            font-size: 28px;
-            line-height: 30px;
-            letter-spacing: 0.32px;
-        }
-    }
+    @media screen and (min-width: 1921px) {}
     
     @media screen and (min-width: 376px) {}
     
@@ -632,7 +600,7 @@
         }
         .brand-value .intro-info {
             margin: 0 auto;
-            padding: 120px 0;
+            padding-top: 120px;
         }
         .brand-value .intro-info .intro-title {
             margin-bottom: 80px;
